@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="Shortcut Icon" type="image/ico" href="imgs/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+	<title>Airy Photography Theme</title>
+  
+	<!-- CSS _____________________________________________-->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/icomoon.css" media="screen" />
+	<link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
+	<link rel="stylesheet" href="style.css" media="screen" />  
+
+	<!-- Fixing Internet Explorer ______________________________________-->
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css" />
+	<![endif]-->
+
+</head>
+<body class="fullscreen">
+
+	<!-- Loader _______________________________-->
+	<div class="loadreveal"></div>
+	<div id="loadscreen"><div id="loader"><span></span></div></div>
+
+	<!-- HEADER _____________________________________________-->
+	<header role="banner" id="header">
+			
+		<div class="wrapper">
+
+			<!-- Logo __-->
+			<h1 id="logo">
+				<a href="index.html" rel="home" id="logo-svg-animated"> 
+					<img src="imgs/logo-white.png" alt="logo" />
+				</a>
+			</h1>
+		
+			<!-- Main menu __-->
+			<nav id="mainmenu" role="navigation">
+			
+				<div id="menu-burger"><i class="icon-menu"></i></div>
+				<div id="searchicon">
+					<i class="icon-search"></i>
+					<form action="/" method="get" id="searchbar">
+						<fieldset>
+							<input type="text" name="s" id="searchbar-input" value="" />
+							<button type="submit" id="searchbar-submit"></button>
+						</fieldset>
+					</form>				
+				</div>
+				<div id="menu">
+					<ul>
+						<li class="menu-item-has-children"><a href="#">Home</a>
+							<ul class="sub-menu">
+								<li><a href="index.html">Fullscreen Image</a></li>
+								<li><a href="gallery-fullscreen.html">Fullscreen Gallery</a></li>
+								<li><a href="gallery-fullscreen-kenburns.html">Fullscreen KenBurns</a></li>
+								<li><a href="gallery-fullscreen-video.html">Fullscreen Video</a></li>
+							</ul>
+						</li>
+						<li class="current_page_parent menu-item-has-children"><a href="#">Galleries</a>
+							<ul class="sub-menu">
+								<li><a href="gallery-masonry.html">Masonry Grid Gallery</a></li>
+								<li><a href="gallery-horizontal.html">Horizontal Gallery</a></li>
+								<li><a href="gallery-vertical.html">Vertical Gallery</a></li>
+								<li><a href="gallery-fullscreen.html">Fullscreen Gallery</a></li>
+								<li><a href="before-after.html">Before &amp; After</a></li>
+								<li><a href="photo-story.html">Photo Story</a></li>
+								<li><a href="password-protected.html">Password Protected</a></li>
+								<li><a href="gallery-archive.html">Gallery Albums</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="#">Pages</a>
+							<ul class="sub-menu">
+								<li><a href="about.html">About</a></li>
+								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="elements.html">Typography & Elements</a></li>
+								<li><a href="404.html">404 Page</a></li>
+							</ul>
+						</li>
+						<li><a href="docs.html">Docs</a></li>
+						<li><a href="blog.html">Journal</a>
+</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div> <!-- END .wrapper -->
+		
+	</header>
+
+	
+	
+	<!-- MAIN CONTENT SECTION  _____________________________________________-->
+	<section id="content" role="main">
+		<div class="wrapper">
+			<!-- WYSIWYG -->
+
+			<div class="position-absolute">
+				<h2 class="big no-margin"><strong>AIRY PHOTO</strong></h2>
+				<h2>Landscape & Portrait Photographer</h2><br />
+			</div>
+			
+
+			<div class="gallery fullscreen-gallery">
+				
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+						<div class="gallery-video" style="background-image: url('imgs/video/fallback-video.jpg');">
+							<div id="video-wrap" class="video-wrap">
+								  <video preload="metadata" autoplay loop id="my-video">
+									 <source src="imgs/video/movie.mp4" type="video/mp4">
+									 <source src="imgs/video/movie.ogv" type="video/ogg">
+								  </video>
+						  	 </div>
+						</div>
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<div class="blog-oneline-carousel">
+								<h3>Latest</h3>
+								<div class="viewport">
+									<ul class="overview">
+										<li>12/08 &nbsp; Our current exhibition at Carnegie Hall now open <a href="#">Read more</a></li>
+										<li>11/08 &nbsp; Great success at our current exhibition at Carnegie Hall <a href="#">Read more</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+
+			<!-- END WYSIWYG -->
+		</div><!-- END .wrapper -->
+	</section>
+
+	<footer id="footer" role="contentinfo">
+		<!--<p class="back-to-top"><a href="#header">Back to top ↑</a></p>
+		<p class="copyright">Airy Theme &copy; 2016</p>-->
+		<ul class="social-icons">
+			<li><a href="#" target="_blank" title="Flickr"><i class="icon-flickr"></i></a></li>
+			<li><a href="#" target="_blank" title="Facebook"><i class="icon-facebook"></i></a></li>
+			<li><a href="#" target="_blank" title="Twitter"><i class="icon-twitter"></i></a></li>								
+		</ul>	
+	</footer>
+
+<!-- Javascripts ______________________________________-->
+<script src="js/jquery.min.js"></script> 
+<script src="js/retina.min.js"></script> 
+<!-- include image popups -->
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<!-- include mousewheel plugin -->
+<script src="js/jquery.mousewheel.min.js"></script>
+<!-- include video plugin -->
+<script src="js/backgroundVideo.min.js"></script>
+<!-- include gallery cycle plugin -->
+<script src="js/jquery.cycle.min.js"></script>
+<!-- include carousel plugins -->
+<script src="js/jquery.tinycarousel.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="js/scripts.js"></script>
+<script>
+	$(document).ready(function() {
+        $('#my-video').backgroundVideo({
+                pauseVideoOnViewLoss: false
+            });
+	});
+</script>
+</body>
+</html>
