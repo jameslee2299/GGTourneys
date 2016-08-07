@@ -1,0 +1,157 @@
+[14-Jul-2016 17:08:53 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[14-Jul-2016 17:08:53 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[15-Jul-2016 17:13:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[15-Jul-2016 17:13:49 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[16-Jul-2016 17:12:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[16-Jul-2016 17:12:29 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[17-Jul-2016 17:15:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[17-Jul-2016 17:15:56 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[19-Jul-2016 17:16:19 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[19-Jul-2016 17:16:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[20-Jul-2016 17:25:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[20-Jul-2016 17:25:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[21-Jul-2016 18:09:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[21-Jul-2016 18:09:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[22-Jul-2016 18:02:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[22-Jul-2016 18:02:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[23-Jul-2016 18:09:20 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[23-Jul-2016 18:09:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[24-Jul-2016 18:02:41 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[24-Jul-2016 18:02:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[25-Jul-2016 17:53:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[25-Jul-2016 17:53:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[27-Jul-2016 17:29:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[27-Jul-2016 17:29:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[30-Jul-2016 17:32:33 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[30-Jul-2016 17:32:33 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[31-Jul-2016 17:01:55 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:01:55 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:01:57 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:38 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:43 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:48 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:49 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:51 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:04:51 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:01 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:01 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:28 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:29 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:32 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:32 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:05:32 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:08:10 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:08:10 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:08:11 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:11:14 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:11:14 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:14 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:11:15 America/Chicago] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:15 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:15 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:11:15 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:12:15 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:12:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:12:15 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:12:15 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:12:16 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 17:12:16 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:07 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:08 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:49 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:50 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:15:50 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 2 given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:16:46 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:16:46 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:16:47 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:22:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:22:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:22:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 17:23:36 America/Chicago] PHP Fatal error:  Call to undefined function fetch_all() in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:23:37 America/Chicago] PHP Fatal error:  Call to undefined function fetch_all() in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:27:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:27:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:27:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:29:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:29:44 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:29:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/jameslee2299/public_html/index.php on line 106
+[31-Jul-2016 17:37:54 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:37:54 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:04 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:04 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:04 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:06 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:07 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:07 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:07 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:07 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:10 America/Chicago] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home1/jameslee2299/public_html/connection.php on line 67
+[31-Jul-2016 17:46:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[31-Jul-2016 17:46:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[31-Jul-2016 17:48:34 America/Chicago] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home1/jameslee2299/public_html/connection.php on line 14
+[31-Jul-2016 17:49:46 America/Chicago] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in /home1/jameslee2299/public_html/connection.php on line 14
+[31-Jul-2016 17:53:34 America/Chicago] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:56:05 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:56:47 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:56:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 17:56:56 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/index.php on line 92
+[31-Jul-2016 18:01:19 America/Chicago] PHP Fatal error:  Function name must be a string in /home1/jameslee2299/public_html/index.php on line 91
+[31-Jul-2016 18:03:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:03:27 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:03:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:03:27 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:06:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:06:57 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:06:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:06:57 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:06:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:06:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:06:59 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:06:59 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:07:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:07:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:07:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:07:00 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:07:52 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home1/jameslee2299/public_html/connection.php on line 30
+[31-Jul-2016 18:08:39 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, string given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:08:39 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:08:39 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, string given in /home1/jameslee2299/public_html/connection.php on line 31
+[31-Jul-2016 18:08:39 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home1/jameslee2299/public_html/connection.php on line 32
+[31-Jul-2016 18:15:47 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'my_user'@'localhost' (using password: YES) in /home1/jameslee2299/public_html/index.php on line 88
+[31-Jul-2016 18:20:07 America/Chicago] PHP Warning:  var_dump(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:20:07 America/Chicago] PHP Warning:  var_dump(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:20:07 America/Chicago] PHP Warning:  var_dump(): Property access is not allowed yet in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:20:07 America/Chicago] PHP Warning:  var_dump(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:20:07 America/Chicago] PHP Warning:  var_dump(): Property access is not allowed yet in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:21:17 America/Chicago] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:23:01 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 108
+[31-Jul-2016 18:24:28 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 125
+[31-Jul-2016 18:24:29 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 125
+[31-Jul-2016 18:24:30 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli_result in /home1/jameslee2299/public_html/index.php on line 125
+[31-Jul-2016 18:27:11 America/Chicago] PHP Fatal error:  Cannot redeclare fetch_all() (previously declared in /home1/jameslee2299/public_html/index.php:25) in /home1/jameslee2299/public_html/connection.php on line 37
+[31-Jul-2016 18:27:12 America/Chicago] PHP Fatal error:  Cannot redeclare fetch_all() (previously declared in /home1/jameslee2299/public_html/index.php:25) in /home1/jameslee2299/public_html/connection.php on line 37
+[31-Jul-2016 18:38:31 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> <td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 114
+[01-Aug-2016 18:08:24 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[01-Aug-2016 18:08:24 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[02-Aug-2016 11:15:57 America/Chicago] PHP Parse error:  syntax error, unexpected '$connection' (T_VARIABLE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 134
+[02-Aug-2016 11:16:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$connection' (T_VARIABLE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 134
+[02-Aug-2016 11:16:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$connection' (T_VARIABLE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 134
+[04-Aug-2016 18:16:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[04-Aug-2016 18:16:40 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[05-Aug-2016 18:18:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[05-Aug-2016 18:18:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[06-Aug-2016 17:42:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[06-Aug-2016 17:42:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
