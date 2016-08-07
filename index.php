@@ -60,24 +60,7 @@
 		
 	</header>
 
-	<!--<section id="content" role="main">-->
-		<!--<div class = "tourney_list">
-			<table bgcolor="white">
-			  <tr>
-			 	 <td>11:30 AM CST</td>
-			 	 <td>7 / 11 / 2016</td>
-				 <td>5 / 16</td> 
-				 <td>$0</td>
-			  </tr>
-			  <tr>
-			    <td>7:00 PM CST</td>
-			    <td>7 / 16 /2016</td> 
-			    <td>3 / 16</td>
-			    <td>$0</td>
-			  </tr>				
-			</table>
-		</div>
-		-->
+	<section id="content" role="main">
 
 		<?php
 
@@ -111,36 +94,26 @@
 		if ($result->num_rows > 0) {
 			echo "<table style='width:80%' bgcolor='white'>";
 			while($row = $result->fetch_assoc()) {
-				echo "<tr> <td> " . $row[Title] . "</td> <td>" . $row[Max_Players] . "</td> </tr> ";
+				echo "<tr> <a href ='webpages/tournaments' <td> " . $row[Title] . "</td> <td>" . $row[Max_Players] . "</td> <td>". $row[Cash] "</td> </a> </tr> ";
 			}
 			echo "</table>";
 		} else {
 			echo "0 results";
 		}
-		//$connection->close();
+		$connection->close();
 	
 		?>
-
+	</section>
 		
 		<div class="page_ender">
 			<font color="white">
 			<!--<h2 class="big no-margin">--><strong>GG Tourneys</strong><!--</h2>-->
 			<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
-			
-			<a href="___"> HIII </a>
-			
-			<?php 
-			//echo $result->fetch_assoc('Title')
-			$connection->close(); ?>
 			</font>
 		</div>
 		<!--<div font-family="BigNoodleTilting">
 			GGTourneys
 		</div>
-
-
-
-	<!--</section>-->
 
 <!-- Javascripts ______________________________________-->
 <script src="js/jquery.min.js"></script> 
