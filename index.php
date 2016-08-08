@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php 
+	//include 'route.php';
+?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -22,8 +25,7 @@
 	<![endif]-->
 
 </head>
-<body class="home fullscreen">
-
+<body class="home fullscreen wrapper">
 	<!-- Loader _______________________________-->
 	<div class="loadreveal"></div>
 	<div id="loadscreen"><div id="loader"></div></div>
@@ -31,7 +33,6 @@
 	<!-- HEADER _____________________________________________-->
 	<header role="banner" id="header">
 		<fb:login-button autologoutlink="true" scope="user_likes,email"></fb:login-button>
-		<div class="wrapper">
 			<!-- Main menu __-->
 			<nav id="mainmenu" role="navigation">
 			
@@ -47,7 +48,7 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li class="current-menu-item"><a href="#">Home</a></li>
+						<li class="current-menu-item"><a href="/">Home</a></li>
 						<li><a href="webpages/myProfile.html">My Profile</a></li>
 						<li><a href="#">Friends</a></li>
 						<li><a href="#">Messages</a></li> 
@@ -56,8 +57,6 @@
 					</ul>
 				</div>
 			</nav>
-		</div> <!-- END .wrapper -->
-		
 	</header>
 
 	<section id="content" role="main">
@@ -92,9 +91,12 @@
 		$result = $connection->query($sql);
 
 		if ($result->num_rows > 0) {
-			echo "<table style='width:80%' bgcolor='white'>";
+			echo "<table style='width:80%' bgcolor='white' align = 'center'>";
+			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th>";
 			while($row = $result->fetch_assoc()) {
-				echo "<tr> <a href ='webpages/tournaments' <td> " . $row[Title] . "</td> <td>" . $row[Max_Players] . "</td> <td>". $row[Cash] "</td> </a> </tr> ";
+				$POST['tourn_id'] = $row[tournament_id];
+				echo $POST['tourn_id'];
+				echo "<tr> <td> ". $row[Title] ."</td> <td>" . $row[Max_Players] . "</td> <td> $". $row[Cash]."<td> <button> <a href = '/webpages/tournament.php'>JOIN NOW </a> </button> </td>"."</td> </tr>";
 			}
 			echo "</table>";
 		} else {
@@ -111,7 +113,8 @@
 			<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
 			</font>
 		</div>
-		<!--<div font-family="BigNoodleTilting">
+		
+		<div font-family="BigNoodleTilting">
 			GGTourneys
 		</div>
 
