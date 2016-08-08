@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-	//include 'route.php';
+	//include 'routes.php';
 ?>
 <html lang="en">
 <head>
