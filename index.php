@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<?php 
-	//include 'routes.php';
-?>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -94,9 +91,17 @@
 			echo "<table style='width:80%' bgcolor='white' align = 'center'>";
 			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th>";
 			while($row = $result->fetch_assoc()) {
-				$POST['tourn_id'] = $row[tournament_id];
-				echo $POST['tourn_id'];
-				echo "<tr> <td> ". $row[Title] ."</td> <td>" . $row[Max_Players] . "</td> <td> $". $row[Cash]."<td> <button> <a href = '/webpages/tournament.php'>JOIN NOW </a> </button> </td>"."</td> </tr>";
+				echo "<tr> 
+					<td> ". $row[Title] ."</td> 
+					<td>" . $row[Max_Players] . "</td> 
+					<td> $". $row[Cash]."</td>
+					<td> 
+						<form action ='webpages/tournament.php' method = 'post'> 
+							<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
+							<input type = 'submit' value = 'JOIN NOW'> 
+						</form> 
+					</td>".
+				"</tr>";
 			}
 			echo "</table>";
 		} else {
