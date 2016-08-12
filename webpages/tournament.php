@@ -1,3 +1,25 @@
+<?php
+
+		/*--------------------BEGINNING OF THE CONNECTION PROCESS------------------*/
+		//define constants for db_host, db_user, db_pass, and db_database
+		//adjust the values below to match your database settings
+		define("DB_HOST", "localhost");
+		define("DB_USER", "jameslee_2");
+		define("DB_PASS", "xV!*pcB[5c7%"); 
+		define("DB_DATABASE", "jameslee_ggtourneys"); 
+
+		//connect to database host
+		$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
+
+		//make sure connection is good or die
+		if ($connection->connect_errno) 
+		{
+		    $console.log("DID NOT GO THROUGH");
+		    die("Failed to connect to MySQL: (" . $connection->connect_errno . ") " . $connection->connect_error);
+		}
+		/*-----------------------END OF CONNECTION PROCESS------------------------*/
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +44,7 @@
 	<![endif]-->
 
 </head>
+
 <body class="home fullscreen wrapper">
 	<!-- Loader _______________________________-->
 	<div class="loadreveal"></div>
@@ -56,47 +79,27 @@
 			</nav>
 	</header>
 
-	<section id="content" role="main">
 
-		<?php
-
-		/*--------------------BEGINNING OF THE CONNECTION PROCESS------------------*/
-		//define constants for db_host, db_user, db_pass, and db_database
-		//adjust the values below to match your database settings
-		define("DB_HOST", "localhost");
-		define("DB_USER", "jameslee_2");
-		define("DB_PASS", "xV!*pcB[5c7%"); 
-		define("DB_DATABASE", "jameslee_ggtourneys"); 
-
-		//connect to database host
-		$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
-
-		//make sure connection is good or die
-		if ($connection->connect_errno) 
-		{
-		    $console.log("DID NOT GO THROUGH");
-		    die("Failed to connect to MySQL: (" . $connection->connect_errno . ") " . $connection->connect_error);
-		}
-		/*-----------------------END OF CONNECTION PROCESS------------------------*/
-
-		/*----------------------DATABASE QUERYING FUNCTIONS-----------------------*/
+	<?php 
+	/*----------------------DATABASE QUERYING FUNCTIONS-----------------------*/
 
 		//SELECT - used when expecting single OR multiple results
 		//returns an array that contains one or more associative arrays
 
-		$sql = "SELECT * FROM Tournaments";
+		$sql = "SELECT * FROM Tournaments WHERE Tournament_ID =". $_POST['tournament_id'];
 		$result = $connection->query($sql);
 
 		if ($result->num_rows > 0) {
 			echo "<table style='width:80%' bgcolor='white' align = 'center'>";
-			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th>";
+			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th> <th> ID </th>";
 			while($row = $result->fetch_assoc()) {
 				echo "<tr> 
 					<td> ". $row[Title] ."</td> 
 					<td>" . $row[Max_Players] . "</td> 
 					<td> $". $row[Cash]."</td>
+					<td>".$row[Tournament_ID]."</td> 
 					<td> 
-						<form action ='webpages/tournament.php' method = 'post'> 
+						<form action ='routes.php' method = 'post'> 
 							<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
 							<input type = 'submit' value = 'JOIN NOW'> 
 						</form> 
@@ -108,41 +111,27 @@
 			echo "0 results";
 		}
 		$connection->close();
-	
-		?>
-	</section>
-		
-		<div class="page_ender">
-			<font color="white">
-			<!--<h2 class="big no-margin">--><strong>GG Tourneys</strong><!--</h2>-->
-			<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
-			</font>
-		</div>
-		
-		<div font-family="BigNoodleTilting">
-			GGTourneys
-		</div>
+	?>
 
-<!-- Javascripts ______________________________________-->
-<script src="js/jquery.min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<!-- include Masonry -->
-<script src="js/isotope.pkgd.min.js"></script> 
-<!-- include image popups -->
-<script src="js/jquery.magnific-popup.min.js"></script> 
-<!-- include mousewheel plugins -->
-<script src="js/jquery.mousewheel.min.js"></script>
-<!-- include carousel plugins -->
-<script src="js/jquery.tinycarousel.min.js"></script>
-<!-- include svg line drawing plugin -->
-<script src="js/jquery.lazylinepainter.min.js"></script>
 
-<!-- Facebook Log in button -->
-<script src="facebook_button.js"></script>
+	<!-- Javascripts ______________________________________-->
+	<script src="js/jquery.min.js"></script> 
+	<script src="js/retina.min.js"></script> 
+	<!-- include Masonry -->
+	<script src="js/isotope.pkgd.min.js"></script> 
+	<!-- include image popups -->
+	<script src="js/jquery.magnific-popup.min.js"></script> 
+	<!-- include mousewheel plugins -->
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<!-- include carousel plugins -->
+	<script src="js/jquery.tinycarousel.min.js"></script>
+	<!-- include svg line drawing plugin -->
+	<script src="js/jquery.lazylinepainter.min.js"></script>
 
-<!-- include custom script -->
-<script src="js/scripts.js"></script>
+	<!-- Facebook Log in button -->
+	<script src="facebook_button.js"></script>
 
+	<!-- include custom script -->
+	<script src="js/scripts.js"></script>
 </body>
-
 </html>
