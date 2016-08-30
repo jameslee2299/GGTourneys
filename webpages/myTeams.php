@@ -1,3 +1,24 @@
+<?php 
+
+    // First we execute our common code to connection to the database and start the session 
+    require("../common.php"); 
+     
+    // At the top of the page we check to see whether the user is logged in or not 
+    if(empty($_SESSION['user'])) 
+    { 
+        // If they are not, we redirect them to the login page. 
+        header("Location: ../login.php"); 
+         
+        // Remember that this die statement is absolutely critical.  Without it, 
+        // people can view your members-only content without logging in. 
+        die("Redirecting to login.php"); 
+    } 
+     
+    // Everything below this point in the file is secured by the login system 
+     
+    // We can display the user's username to them by reading it from the session array.  Remember that because 
+    // a username is user submitted content we must use htmlentities on it before displaying it to the user. 
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,9 +66,9 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li class="current-menu-item"><a href="/">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li><a href="webpages/myProfile.html">My Profile</a></li>
-						<li><a href="webpages/myTeams.php">My Teams</a></li>
+						<li class = "current-menu-item"><a href="webpages/myTeams.php">My Teams</a></li>
 						<li><a href="#">Friends</a></li>
 						<li><a href="#">Messages</a></li> 
 						<li><a href="webpages/contact.html">Contact Us</a></li> 
@@ -56,10 +77,8 @@
 				</div>
 			</nav>
 	</header>
-
 	<section id="content" role="main">
-		<div class = "tourney_list">
-			<?php
+		<?php
 
 			/*--------------------BEGINNING OF THE CONNECTION PROCESS------------------*/
 			//define constants for db_host, db_user, db_pass, and db_database
@@ -84,24 +103,18 @@
 
 			//SELECT - used when expecting single OR multiple results
 			//returns an array that contains one or more associative arrays
-
-			$sql = "SELECT * FROM Tournaments";
+			$username = $_SESSION['user']['username'];
+			$userID = $_SESSION['user']['id'];
+			var_dump($_SESSION['user']);
+			$sql = "SELECT * FROM Teams WHERE Teams.Member_ID AND Teams.Admin_ID =".$userID;
 			$result = $connection->query($sql);
 
 			if ($result->num_rows > 0) {
 				echo "<table style='width:100%' bgcolor='white'>";
-				echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th>";
+				echo "<th> Testing </th>";
 				while($row = $result->fetch_assoc()) {
 					echo "<tr> 
-						<td> ". $row[Title] ."</td> 
-						<td>" . $row[Max_Players] . "</td> 
-						<td> $". $row[Cash]."</td>
-						<td> 
-							<form action ='webpages/tournament.php' method = 'post'> 
-								<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
-								<input type = 'submit' value = 'JOIN NOW'> 
-							</form> 
-						</td>".
+						<td> ". $row[Team_Name] ."</td>".
 					"</tr>";
 				}
 				echo "</table>";
@@ -113,17 +126,16 @@
 			?>
 		</div>	
 	</section>
-		
-		<div class="page_ender">
-			<font color="white">
-			<!--<h2 class="big no-margin">--><strong>GG Tourneys</strong><!--</h2>-->
-			<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
-			</font>
-		</div>
-		
-		<div font-family="BigNoodleTilting">
-			GGTourneys
-		</div>
+<div class="page_ender">
+		<font color="white">
+		<!--<h2 class="big no-margin">--><strong>GG Tourneys</strong><!--</h2>-->
+		<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
+		</font>
+	</div>
+	
+	<div font-family="BigNoodleTilting">
+		GGTourneys
+	</div>
 
 <!-- Javascripts ______________________________________-->
 <script src="js/jquery.min.js"></script> 
@@ -146,5 +158,4 @@
 <script src="js/scripts.js"></script>
 
 </body>
-
 </html>

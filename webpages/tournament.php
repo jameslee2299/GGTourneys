@@ -91,18 +91,16 @@
 
 		if ($result->num_rows > 0) {
 			echo "<table style='width:80%' bgcolor='white' align = 'center'>";
-			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th> <th> ID </th>";
+			echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th> <th> ID </th> <th> Time </th> <th> Current Players </th>";
 			while($row = $result->fetch_assoc()) {
 				echo "<tr> 
 					<td> ". $row[Title] ."</td> 
 					<td>" . $row[Max_Players] . "</td> 
 					<td> $". $row[Cash]."</td>
 					<td>".$row[Tournament_ID]."</td> 
+					<td>".$row[Time]."</td> 
+					<td>".$row[Current_Players]."</td> 
 					<td> 
-						<form action ='routes.php' method = 'post'> 
-							<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
-							<input type = 'submit' value = 'JOIN NOW'> 
-						</form> 
 					</td>".
 				"</tr>";
 			}

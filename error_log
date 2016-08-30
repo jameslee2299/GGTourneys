@@ -155,3 +155,383 @@
 [05-Aug-2016 18:18:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
 [06-Aug-2016 17:42:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
 [06-Aug-2016 17:42:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[07-Aug-2016 17:22:54 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[07-Aug-2016 17:22:54 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[07-Aug-2016 17:42:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 99
+[07-Aug-2016 17:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 99
+[07-Aug-2016 18:18:15 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:18:15 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:18:18 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:18:19 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:18:22 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:18:22 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:05 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:06 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:35 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:36 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:37 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:37 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </a> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:19:48 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:20:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:20:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td> </tr> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:21:13 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:21:13 America/Chicago] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:25:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 18:25:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 97
+[07-Aug-2016 20:46:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:46:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:46:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'row' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:26 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:27 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:27 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:29 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 20:47:29 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:24:45 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:24:45 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:37:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:37:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:06 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:07 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:07 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:10 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:10 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:11 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:11 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:15 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:15 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:48 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:48 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:50 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:50 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:52 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:53 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:38:53 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:18 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:18 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:19 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:23 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:23 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:25 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:25 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:33 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:33 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:34 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:34 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:34 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:34 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:35 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:36 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:36 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:40 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:40 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:42 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:42 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:48 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:39:48 America/Chicago] PHP Warning:  Illegal string offset 'tournament_id' in /home1/jameslee2299/public_html/index.php on line 94
+[07-Aug-2016 21:40:09 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/jameslee2299/public_html/index.php on line 138
+[07-Aug-2016 21:40:09 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/jameslee2299/public_html/index.php on line 138
+[07-Aug-2016 21:40:29 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home1/jameslee2299/public_html/index.php on line 138
+[07-Aug-2016 21:51:47 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 21:51:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 21:54:10 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 21:54:10 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 21:57:04 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 21:57:04 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 22:06:42 America/Chicago] PHP Parse error:  syntax error, unexpected ''>JOIN NOW </a> </button </td>' (T_ENCAPSED_AND_WHITESPACE) in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 22:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected ''>JOIN NOW </a> </button </td>' (T_ENCAPSED_AND_WHITESPACE) in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 22:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected ''>JOIN NOW </a> </button </td>' (T_ENCAPSED_AND_WHITESPACE) in /home1/jameslee2299/public_html/index.php on line 96
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:49 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:50 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:53 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:55 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:56 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:56 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:14:56 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:09 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:15:12 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:14 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(route.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Warning:  include(): Failed opening 'route.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:29 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:30 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:31 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:32 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:33 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:34 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:35 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:35 America/Chicago] PHP Warning:  include(routes.php): failed to open stream: No such file or directory in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:35 America/Chicago] PHP Warning:  include(): Failed opening 'routes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/jameslee2299/public_html/index.php on line 3
+[07-Aug-2016 22:29:35 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:56 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:56 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:57 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:29:57 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:31:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:31:16 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:31:16 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:49:50 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:49:50 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:01 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:01 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:02 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:03 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:09 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:09 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:12 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:12 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:18 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:18 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:20 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:20 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:43 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:43 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:48 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:49 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:57 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:50:58 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:51:05 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:51:05 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:51:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:51:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:52:05 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:52:06 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:52:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[07-Aug-2016 22:52:07 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home1/jameslee2299/public_html/index.php on line 5
+[09-Aug-2016 11:06:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:06:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:07:04 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:10:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:11:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:11:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:11:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home1/jameslee2299/public_html/routes.php on line 7
+[09-Aug-2016 11:11:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home1/jameslee2299/public_html/routes.php on line 7
+[09-Aug-2016 11:12:06 America/Chicago] PHP Warning:  log() expects parameter 1 to be double, string given in /home1/jameslee2299/public_html/routes.php on line 9
+[09-Aug-2016 11:12:06 America/Chicago] PHP Warning:  log() expects parameter 1 to be double, string given in /home1/jameslee2299/public_html/routes.php on line 9
+[09-Aug-2016 11:14:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:14:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:14:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[09-Aug-2016 11:14:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home1/jameslee2299/public_html/routes.php on line 3
+[11-Aug-2016 10:52:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'action' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 109
+[11-Aug-2016 10:52:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'action' (T_STRING), expecting ',' or ';' in /home1/jameslee2299/public_html/index.php on line 109
+[11-Aug-2016 10:58:46 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jameslee2299/public_html/routes.php on line 27
+[11-Aug-2016 10:58:46 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/jameslee2299/public_html/routes.php on line 27
+[14-Aug-2016 17:12:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[14-Aug-2016 17:12:05 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
+[24-Aug-2016 17:09:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/jameslee2299/public_html/profile.php on line 10
+[24-Aug-2016 17:09:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/jameslee2299/public_html/profile.php on line 10
