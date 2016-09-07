@@ -68,12 +68,19 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li class="current-menu-item"><a href="/">Home</a></li>
-						<li><a href="webpages/myProfile.html">My Profile</a></li>
-						<li><a href="#">Friends</a></li>
-						<li><a href="#">Messages</a></li> 
-						<li><a href="webpages/contact.html">Contact Us</a></li> 
-						<li><a href="#" onclick="fbLogin();">Log In</a></li>
+						<li class="current-menu-item"><a href="../index.php">Home</a></li>
+						<li class="menu-item-has-children"><a href="#">Profile</a>
+							<ul class="sub-menu">
+								<li><a href="myProfile.html">My Profile</a></li>
+								<li><a href="../login.php">Login</a></li>
+								<li><a href="../register.php">Register</a></li>
+								<li><a href="../memberlist.php">Member List</a></li>
+								<li><a href="../logout.php">Logout</a></li>
+							</ul>
+						</li>
+						<!--<li><a href="#">Friends</a></li>
+						<li><a href="#">Messages</a></li> -->
+						<li><a href="contact.html">Contact Us</a></li> 
 					</ul>
 				</div>
 			</nav>

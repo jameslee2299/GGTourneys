@@ -1,3 +1,7 @@
+<?php
+	require('common.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,12 +18,6 @@
 	<link rel="stylesheet" href="css/icomoon.css" media="screen" />
 	<link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
 	<link rel="stylesheet" href="style.css" media="screen" />  
-
-	<!-- Fixing Internet Explorer ______________________________________-->
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" href="css/ie.css" />
-	<![endif]-->
 
 </head>
 <body class="home fullscreen">
@@ -45,13 +43,18 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li class="current-menu-item"><a href="/">Home</a></li>
-						<li><a href="webpages/myProfile.html">My Profile</a></li>
+						<li class="current-menu-item"><a href="#">Home</a></li>
+						<li class="menu-item-has-children"><a href="#">Profile</a>
+							<ul class="sub-menu">
+								<li><a href="webpages/myProfile.html">My Profile</a></li>
+								<li><a href="login.php">Login</a></li>
+								<li><a href="register.php">Register</a></li>
+								<li><a href="memberlist.php">Member List</a></li>
+								<li><a href="logout.php">Logout</a></li>
+							</ul>
+						</li>
 						<li><a href="webpages/myTeams.php">My Teams</a></li>
-						<li><a href="#">Friends</a></li>
-						<li><a href="#">Messages</a></li> 
 						<li><a href="webpages/contact.html">Contact Us</a></li> 
-						<li><a href="#" onclick="fbLogin();">Log In</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -59,57 +62,49 @@
 
 	<section id="content" role="main">
 		<div class = "tourney_list">
-			<?php
+			<?php 
 
-			/*--------------------BEGINNING OF THE CONNECTION PROCESS------------------*/
-			//define constants for db_host, db_user, db_pass, and db_database
-			//adjust the values below to match your database settings
-			define("DB_HOST", "localhost");
-			define("DB_USER", "jameslee_2");
-			define("DB_PASS", "xV!*pcB[5c7%"); 
-			define("DB_DATABASE", "jameslee_ggtourneys"); 
+				$query = " 
+			        SELECT 
+			            * 
+			        FROM Tournaments 
+			    "; 
+			     
+			    try 
+			    { 
+			        // These two statements run the query against your database table. 
+			        $stmt = $db->prepare($query); 
+			        $stmt->execute(); 
+			    } 
+			    catch(PDOException $ex) 
+			    { 
+			        // Note: On a production website, you should not output $ex->getMessage(). 
+			        // It may provide an attacker with helpful information about your code.  
+			        die("Failed to run query: " . $ex->getMessage()); 
+			    } 
+			         
+			    // Finally, we can retrieve all of the found rows into an array using fetchAll 
+			    $rows = $stmt->fetchAll(); 
 
-			//connect to database host
-			$connection = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DATABASE);
 
-			//make sure connection is good or die
-			if ($connection->connect_errno) 
-			{
-			    $console.log("DID NOT GO THROUGH");
-			    die("Failed to connect to MySQL: (" . $connection->connect_errno . ") " . $connection->connect_error);
-			}
-			/*-----------------------END OF CONNECTION PROCESS------------------------*/
-
-			/*----------------------DATABASE QUERYING FUNCTIONS-----------------------*/
-
-			//SELECT - used when expecting single OR multiple results
-			//returns an array that contains one or more associative arrays
-
-			$sql = "SELECT * FROM Tournaments";
-			$result = $connection->query($sql);
-
-			if ($result->num_rows > 0) {
+				//$sql = "SELECT * FROM Tournaments";
+				//$result = $db->query($sql);
 				echo "<table style='width:100%' bgcolor='white'>";
 				echo "<th> Tournament </th> <th> Maximum Players </th> <th> Prize </th>";
-				while($row = $result->fetch_assoc()) {
-					echo "<tr> 
-						<td> ". $row[Title] ."</td> 
-						<td>" . $row[Max_Players] . "</td> 
-						<td> $". $row[Cash]."</td>
-						<td> 
-							<form action ='webpages/tournament.php' method = 'post'> 
-								<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
-								<input type = 'submit' value = 'JOIN NOW'> 
-							</form> 
-						</td>".
-					"</tr>";
-				}
+					foreach($rows as $row):
+						echo "<tr> 
+							<td> ". $row['Title'] ."</td>
+							<td>" . $row['Max_Players'] . "</td> 
+							<td> $". $row['Cash'] ."</td>
+							<td> 
+								<form action ='webpages/tournament.php' method = 'post'> 
+									<input type = 'hidden' name = 'tournament_id' value = ' ". $row[Tournament_ID]."'>
+									<input type = 'submit' value = 'JOIN NOW'> 
+								</form> 
+							</td>".
+						"</tr>";
+					endforeach;
 				echo "</table>";
-			} else {
-				echo "0 results";
-			}
-			$connection->close();
-		
 			?>
 		</div>	
 	</section>

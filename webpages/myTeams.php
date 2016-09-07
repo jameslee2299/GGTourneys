@@ -66,13 +66,20 @@
 				</div>
 				<div id="menu">
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="webpages/myProfile.html">My Profile</a></li>
-						<li class = "current-menu-item"><a href="webpages/myTeams.php">My Teams</a></li>
-						<li><a href="#">Friends</a></li>
-						<li><a href="#">Messages</a></li> 
-						<li><a href="webpages/contact.html">Contact Us</a></li> 
-						<li><a href="#" onclick="fbLogin();">Log In</a></li>
+						<li><a href="../index.php">Home</a></li>
+						<li class="menu-item-has-children"><a href="#">Profile</a>
+							<ul class="sub-menu">
+								<li><a href="myProfile.html">My Profile</a></li>
+								<li><a href="../login.php">Login</a></li>
+								<li><a href="../register.php">Register</a></li>
+								<li><a href="../memberlist.php">Member List</a></li>
+								<li><a href="../logout.php">Logout</a></li>
+							</ul>
+						</li>
+						<li class = "current-menu-item"><a href="myTeams.php">My Teams</a></li>
+						<!--<li><a href="#">Friends</a></li>
+						<li><a href="#">Messages</a></li> -->
+						<li><a href="contact.html">Contact Us</a></li> 
 					</ul>
 				</div>
 			</nav>
@@ -101,20 +108,26 @@
 
 			/*----------------------DATABASE QUERYING FUNCTIONS-----------------------*/
 
+			?> 
+			
+			<h1> Current Teams </h1>
+			<?
 			//SELECT - used when expecting single OR multiple results
 			//returns an array that contains one or more associative arrays
 			$username = $_SESSION['user']['username'];
 			$userID = $_SESSION['user']['id'];
-			var_dump($_SESSION['user']);
-			$sql = "SELECT * FROM Teams WHERE Teams.Member_ID AND Teams.Admin_ID =".$userID;
+			$sql = "SELECT Teams.*, users.id, users.username, users.email FROM Teams JOIN users ON users.id = Teams.admin_id
+			WHERE Teams.Member_ID = $userID OR Teams.Admin_ID = $userID";
 			$result = $connection->query($sql);
 
 			if ($result->num_rows > 0) {
-				echo "<table style='width:100%' bgcolor='white'>";
-				echo "<th> Testing </th>";
+				echo "<table>";
+				echo "<th> Team Name </th> <th> Administrator </th>";
 				while($row = $result->fetch_assoc()) {
 					echo "<tr> 
-						<td> ". $row[Team_Name] ."</td>".
+						<td> ". $row[Team_Name] ."</td>
+						<td>". $row[username]."</td>".
+
 					"</tr>";
 				}
 				echo "</table>";
