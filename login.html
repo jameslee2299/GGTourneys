@@ -1,0 +1,79 @@
+<!--<?php
+    // First we execute our common code to connection to the database and start the session 
+    //require("common.php"); 
+?>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <!--<link rel="Shortcut Icon" type="image/ico" href="../images/favicon.ico" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <title>GGTOURNEYS</title>
+  
+    <!-- CSS _____________________________________________-->
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/icomoon.css" media="screen" />
+    <link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
+    <link rel="stylesheet" href="style.css" media="screen" />  
+
+</head>
+<body class="home fullscreen">
+    <!-- Loader _______________________________-->
+    <div class="loadreveal"></div>
+    <div id="loadscreen"><div id="loader"></div></div>
+
+    <!-- HEADER _____________________________________________-->
+    <header role="banner" id="header">
+        <fb:login-button autologoutlink="true" scope="user_likes,email"></fb:login-button>
+            <!-- Main menu __-->
+            <nav id="mainmenu" role="navigation">
+            
+                <div id="menu-burger"><i class="icon-menu"></i></div>
+                <div id="searchicon">
+                    <i class="icon-search"></i>
+                    <form action="/" method="get" id="searchbar">
+                        <fieldset>
+                            <input type="text" name="s" id="searchbar-input" value="" />
+                            <button type="submit" id="searchbar-submit"></button>
+                        </fieldset>
+                    </form>             
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li class="current-menu-item"><a href="#">Home</a></li>
+                        <li class="menu-item-has-children"><a href="#">Profile</a>
+                            <ul class="sub-menu">
+                                <li><a href="webpages/myProfile.html">My Profile</a></li>
+                                <li><a href="login.php">Login</a></li>
+                                <li><a href="register.php">Register</a></li>
+                                <li><a href="memberlist.php">Member List</a></li>
+                                <li><a href="logout.php">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="webpages/myTeams.php">My Teams</a></li>
+                        <li><a href="webpages/contact.html">Contact Us</a></li> 
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <section id="content" role="main">
+
+        <h1>Login</h1> 
+        <!--<form action="login.php" method="post">
+            Username:<br /> 
+            <input type="text" name="username" value="" /> 
+            <br /><br /> 
+            Password:<br /> 
+            <input type="password" name="password" value="" /> 
+            <br /><br /> 
+            <input type="submit" value="Login" /> 
+        </form> -->
+        <a href="register.php">Register</a>
+    </section>
+</body>
+</html>

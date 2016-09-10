@@ -118,12 +118,17 @@
                 username, 
                 password, 
                 salt, 
-                email 
+                email,
+                confirmed, 
+                confirmCode 
             ) VALUES ( 
                 :username, 
                 :password, 
                 :salt, 
-                :email 
+                :email,
+                0,
+                :confirmCode
+
             ) 
         "; 
          
@@ -153,6 +158,8 @@
         { 
             $password = hash('sha256', $password . $salt); 
         } 
+
+        $confirmCode = dechex(mt_rand(0, 2147483647)) . dechex(mt_rand(0, 2147483647)); 
          
         // Here we prepare our tokens for insertion into the SQL query.  We do not 
         // store the original password; only the hashed version of it.  We do store 
@@ -161,7 +168,8 @@
             ':username' => $_POST['username'], 
             ':password' => $password, 
             ':salt' => $salt, 
-            ':email' => $_POST['email'] 
+            ':email' => $_POST['email'], 
+            ':confirmCode' => $confirmCode
         ); 
          
         try 
@@ -169,6 +177,17 @@
             // Execute the query to create the user 
             $stmt = $db->prepare($query); 
             $result = $stmt->execute($query_params); 
+
+            $username = $_POST['username'];
+
+            //Send email confirmation to user
+            $message = 
+            "
+            Confirm Your email
+            Click the link below to verify your account
+            http://ggtourneys.com/emailConfirm.php?username=$username&code=$confirmCode
+            ";
+            mail($_POST['email'], "GGTourneys Confirm Email", $message, "From: DoNotReply@GGTourneys.com");
         } 
         catch(PDOException $ex) 
         { 
