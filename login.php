@@ -63,7 +63,7 @@
                 <div class="column column-span-1 column-push-0 column-first">
                     <h2>Login</h2>
 
-                    <form action="loginController.php" method="post">
+                    <form action="controller/loginController.php" method="post">
                         Username:<br /> 
                         <input type="text" name="username" value="" /> 
                         <br /><br /> 

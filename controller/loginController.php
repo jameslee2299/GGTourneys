@@ -1,8 +1,5 @@
-<?php 
-
-    // First we execute our common code to connection to the database and start the session 
-    require("common.php"); 
-     
+<?php
+    require("../common.php");
     // This variable will be used to re-display the user's username to them in the 
     // login form if they fail to enter the correct password.  It is initialized here 
     // to an empty value, which will be shown if the user has not submitted the form. 
@@ -20,7 +17,8 @@
                 username, 
                 password, 
                 salt, 
-                email 
+                email,
+                confirmed 
             FROM users 
             WHERE 
                 username = :username 
@@ -56,14 +54,15 @@
         { 
             // Using the password submitted by the user and the salt stored in the database, 
             // we now check to see whether the passwords match by hashing the submitted password 
-            // and comparing it to the hashed version already stored in the database. 
+            // and comparing it to the hashed version already stored in the database.  
+
             $check_password = hash('sha256', $_POST['password'] . $row['salt']); 
             for($round = 0; $round < 65536; $round++) 
             { 
                 $check_password = hash('sha256', $check_password . $row['salt']); 
             } 
              
-            if($check_password === $row['password']) 
+            if($check_password === $row['password'] && $row['confirmed'] == 1) 
             { 
                 // If they do, then we flip this to true 
                 $login_ok = true; 
@@ -89,32 +88,41 @@
             $_SESSION['user'] = $row; 
              
             // Redirect the user to the private members-only page. 
-            header("Location: private.php"); 
-            die("Redirecting to: private.php"); 
+            header("Location: ../private.php"); 
+            die("Redirecting to: ../private.php"); 
         } 
         else 
         { 
             // Tell the user they failed 
-            print("Login Failed."); 
+            //print("Login Failed."); 
              
             // Show them their username again so all they have to do is enter a new 
             // password.  The use of htmlentities prevents XSS attacks.  You should 
             // always use htmlentities on user submitted values before displaying them 
             // to any users (including the user that submitted them).  For more information: 
             // http://en.wikipedia.org/wiki/XSS_attack 
-            $submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
+
+            /*echo"<script type='text/javascript'>
+                    window.location.href = 'http://www.ggtourneys.com/login.php';
+                </script>";*/
+
+            if($row) {
+                header("Location: ../login.php?message=2"); 
+            } else {
+                header("Location: ../login.php?message=3");
+            }
+
+            // This redirects the user back to the login page after they register 
+            //header("Location: login.php?message=2"); 
+
+            //$submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
+        
+            // If they are not, we redirect them to the login page. 
+            //header("Location: login.php"); 
+         
+            // Remember that this die statement is absolutely critical.  Without it, 
+            // people can view your members-only content without logging in. 
+            die("Redirecting to ../login.php"); 
         } 
     } 
-     
-?> 
-<h1>Login</h1> 
-<form action="login.php" method="post"> 
-    Username:<br /> 
-    <input type="text" name="username" value="<?php echo $submitted_username; ?>" /> 
-    <br /><br /> 
-    Password:<br /> 
-    <input type="password" name="password" value="" /> 
-    <br /><br /> 
-    <input type="submit" value="Login" /> 
-</form> 
-<a href="register.php">Register</a>
+?>
