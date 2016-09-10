@@ -72,7 +72,19 @@
                         <br /><br /> 
                         <input type="submit" value="Login" /> 
                     </form>
-                    <a href="register.php">Register</a>
+                    <a href="register.php">Register</a> 
+                    <br/>
+                    <?php 
+                        if(isset($_GET['message'])) {
+                            if($_GET['message'] == 1) {
+                                echo "Email confirmation has been sent";
+                            } else if ($_GET['message'] == 2) {
+                                echo "Account not yet confirmed";
+                            } else if ($_GET['message'] == 3) {
+                                echo "Login failed";
+                            }
+                        }
+                    ?>
                 </div>
             </div>
         </div>
