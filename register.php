@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mainApp">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -55,18 +55,21 @@
             <div class="column-grid column-grid-2">
                 <div class="column column-span-1 column-push-0 column-first">
                     <h2>Register</h2> 
-                        <form action="controller/registerController.php" method="post"> 
-                            Username:<br /> 
-                            <input type="text" name="username" value="" /> 
-                            <br /><br /> 
-                            E-Mail:<br /> 
-                            <input type="text" name="email" value="" /> 
-                            <br /><br /> 
-                            Password:<br /> 
-                            <input type="password" name="password" value="" /> 
-                            <br /><br /> 
-                            <input type="submit" value="Register" /> 
-                        </form>
+                        <div ng-controller="users">
+                            <form> 
+                                Username:<br /> 
+                                <input type="text" ng-model="username" value="" /> 
+                                <br /><br /> 
+                                E-Mail:<br /> 
+                                <input type="text" ng-model="email" value="" /> 
+                                <br /><br /> 
+                                Password:<br /> 
+                                <input type="password" ng-model="password" value="" /> 
+                                <br /><br /> 
+                                <input type="submit" value="Register" ng-click="registerUser()" />
+                                {{msg}}
+                            </form>
+                        </div>
                     <br/>
                     <?php 
                         if(isset($_GET['message'])) {
@@ -87,9 +90,11 @@
     </section>
 
 
-    <!-- Javascripts ______________________________________-->
+<!-- Javascripts ______________________________________-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="js/jquery.min.js"></script> 
 <script src="js/retina.min.js"></script> 
+<script src="controller/mainAppController.js"></script>
 <!-- include Masonry -->
 <script src="js/isotope.pkgd.min.js"></script> 
 <!-- include image popups -->

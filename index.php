@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mainApp">
 <head>
 	<meta charset="utf-8">
 	
@@ -14,7 +14,7 @@
   
 	<!-- CSS _____________________________________________-->
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
+	
 	<link rel="stylesheet" href="css/icomoon.css" media="screen" />
 	<link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
 	<link rel="stylesheet" href="style.css" media="screen" />  
@@ -27,10 +27,8 @@
 
 	<!-- HEADER _____________________________________________-->
 	<header role="banner" id="header">
-		<fb:login-button autologoutlink="true" scope="user_likes,email"></fb:login-button>
 			<!-- Main menu __-->
 			<nav id="mainmenu" role="navigation">
-			
 				<div id="menu-burger"><i class="icon-menu"></i></div>
 				<div id="searchicon">
 					<i class="icon-search"></i>
@@ -110,19 +108,14 @@
 	</section>
 		
 		<div class="page_ender">
-			<font color="white">
-			<!--<h2 class="big no-margin">--><strong>GG Tourneys</strong><!--</h2>-->
-			<img src="imgs/LogoMakr.png" alt="Logo" style="width:100px;height:80px;">
-			</font>
-		</div>
-		
-		<div font-family="BigNoodleTilting">
-			GGTourneys
+			<img src="imgs/Logo_Title.png" alt="Logo" style="width:450px;height:80px;">
 		</div>
 
 <!-- Javascripts ______________________________________-->
 <script src="js/jquery.min.js"></script> 
 <script src="js/retina.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
 <!-- include Masonry -->
 <script src="js/isotope.pkgd.min.js"></script> 
 <!-- include image popups -->

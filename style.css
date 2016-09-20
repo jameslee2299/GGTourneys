@@ -12,14 +12,6 @@ CONTENTS:
 	
 */
 
-/* 0. Fonts */
-@font-face {
-  font-family: "BigNoodleTilting";
-  src: url('css/fonts/BigNoodleTilting.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* 1. FORM ELEMENTS
 _____________________________________ */
 input, textarea, select, input[type="submit"], input[type="button"], button, .button { font-family: 'Josefin Sans', sans-serif; vertical-align: middle; }
@@ -196,7 +188,7 @@ article.entry.post { clear: both; margin: 0 0 2em 0; width: 100%; position: rela
 article.entry.post img { max-width: 100%; } 
 article.entry.post iframe { width: 100%; }
 article.entry.post .entry-content, article.entry.post .entry-footer { margin: 0 0 2em 0; }
-article h2 {font-family: BigNoodleTilting; font-size: 1.6em; margin: .5em 0 .75em 0; }
+article h2 { font-size: 1.6em; margin: .5em 0 .75em 0; }
 
 /*.blog-masonry #blog-post { display: none; }*/
 .blog-masonry #blog-timeline { width: 100%;}
@@ -539,15 +531,8 @@ div.centered table
 	text-align:left;
 	width:80%;
 	height:60px;
-	font-family: BigNoodleTilting;
-	/*font-family:BigNoodleTilting;*/
+	margin-left:30px;
 }
-
-div.page_ender_text {
-	font-family:BigNoodleTilting;
-}
-
-
 
 @media screen and (max-width: 640px) {	/*mobile*/
 	/*header smaller space*/
